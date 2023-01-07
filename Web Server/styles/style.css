@@ -87,14 +87,33 @@ section {
   font-size: 24px;
   font-weight: bold;
 }
+.name_ar {
+  text-align: right;
+  color: #000;
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
 
 .id {
   margin: 4px 0;
   color: #777;
   font-size: 14px;
 }
+.id_ar {
+  text-align: right;
+  margin: 4px 0;
+  color: #777;
+  font-size: 14px;
+}
 
 .bio {
+  margin: 4px 0;
+  color: #666;
+  font-size: 14px;
+}
+.bio_ar{
+  text-align: right;
   margin: 4px 0;
   color: #666;
   font-size: 14px;
@@ -112,23 +131,50 @@ section {
 .github-link {
   text-decoration: none;
   display: block;
-  padding: 8px 16px;
-  /* Vertical and horizontal padding */
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 200px;
+  height: 34.40px;
   border-radius: 10px;
-  /* Rounded corners */
-  font-weight: bolder;
-  font-size: 17px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
   color: #0A1931;
-  /* Yellow text */
   background-color: var(--thirdcolor);
-  /* No background color */
   border: 2px solid var(--thirdcolor);
-  /* Yellow border */
+  margin-bottom: 16px;
+  margin: 16px;
+}
+.github-link_en {
+  text-decoration: none;
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 14px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 200px;
+  height: 34.40px;
+  border-radius: 10px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+  color: #0A1931;
+  background-color: var(--thirdcolor);
+  border: 2px solid var(--thirdcolor);
   margin-bottom: 16px;
   margin: 16px;
 }
 
 .github-link:hover {
+  background-color: var(--firstcolor);
+  /* Yellow background on hover */
+  color: var(--thirdcolor);
+  /* White text on hover */
+  /* No border on hover */
+}
+.github-link_en:hover {
   background-color: var(--firstcolor);
   /* Yellow background on hover */
   color: var(--thirdcolor);
