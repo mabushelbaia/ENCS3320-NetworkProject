@@ -1,6 +1,6 @@
 from socket import *
 import os
-serverPort = 8080
+serverPort = 7788
 server_socket = socket(AF_INET,SOCK_STREAM)
 server_socket.bind(('', serverPort))
 server_socket.listen()

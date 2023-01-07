@@ -3,7 +3,7 @@ import time
 serverPort = 5566
 server_socket = socket(AF_INET,SOCK_STREAM)
 messages_received = 0
-server_socket.bind(('', serverPort))
+server_socket.bind(('192.168.2.53', serverPort))
 server_socket.listen()
 try:
     while True:

@@ -11,4 +11,4 @@ finally:
     client_socket.close()
     end_time = time()
     print("Messages sent: {}".format(message))
-    print("Time required to send the packets: {:.2f}s".format(end_time - start_time))
+    print("Time required to send the packets: {:.7f}s".format(end_time - start_time))

@@ -1,6 +1,6 @@
 from socket import *
 import time
-serverName = '172.22.9.191'
+serverName = 'localhost'
 serverPort = 5566
 # start a timer
 client_socket = socket(AF_INET, SOCK_STREAM)
