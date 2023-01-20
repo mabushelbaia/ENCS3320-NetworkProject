@@ -1,6 +1,6 @@
 # Network Project
 
-🔗[Project Description](ENCS3320_Project1.pdf) 
+🔗[Project Description](ENCS3320_Project1.pdf)  
 🔗[Report](Report.pdf)
 
 ## Team
